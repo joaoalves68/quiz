@@ -1,2 +1,2 @@
 ### executar o arquivo no cmd:
-###   - py quiz.py
+#####   - py quiz.py
