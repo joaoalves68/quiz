@@ -1,1 +1,2 @@
-## Quiz simples criado em python para aprendizado da linguagem. 
+### executar o arquivo no cmd:
+###   - py quiz.py
