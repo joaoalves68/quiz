@@ -1,14 +1,17 @@
-print('Olá, bem-vindo ao quiz do João')
-# comecar = input('Deseja começar o quiz? (S/N) ')
-
-# if comecar != 'S':
-#     quit()
-score = 0
-
 def checarResposta (resposta, resposta_usuario):
     if resposta == resposta_usuario:
         return True
 
+def calcularScore (qntPerguntas, qntAcertos):
+    return qntAcertos / qntPerguntas * 100
+
+print('Olá, bem-vindo ao quiz do João')
+comecar = input('Deseja começar o quiz? (S/N) ')
+
+if comecar != 'S':
+    quit()
+
+score = 0
 
 pergunta_1 = "\n1: Qual a operação contrária a potenciação? \n a) Divisão \n b) Radiciação \n c) Adição \n d) Multiplicação "
 resposta_1 = "b"
@@ -50,4 +53,5 @@ resposta_usuario = input("Resposta: ")
 if checarResposta(resposta_5, resposta_usuario) == True:
     score += 1
 
-print(score)
+scoreFinal = calcularScore(5, score)
+print('Quiz finalizado, você acertou '+str(scoreFinal)+'%, parabéns!')
