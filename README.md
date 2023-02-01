@@ -1,7 +1,7 @@
-### Executar o arquivo no cmd:
-#####   - py quiz.py
+## Quiz:
 
-### Adiciconar perguntas no excell da seguinte forma:
-#####   - coluna "QUESTIONS" adicionar a pergunta e em seguida as alternativas separadas por "||".
-#####   ex: Qual a operação contrária a potenciação? || a) Divisão || b) Radiciação || c) Adição || d) Multiplicação
-#####   - coluna "ANSWERS" adicionar a letra da alternativa correta.
+<div style="display: inline-block">
+    <img align="center" alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+</div>
+
+#### Para rodar o programa execute o arquivo quiz.py no CMD
